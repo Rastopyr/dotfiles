@@ -1,2 +1,1 @@
-'atom-text-editor:not([mini])':
-  'alt-s': 'sort-lines:sort'
+/Users/rastopyr/.atom/keymap.cson
