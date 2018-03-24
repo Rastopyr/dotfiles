@@ -1,1 +1,123 @@
-/Users/rastopyr/.atom/config.cson
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "dbf0a3aa-39aa-4d5d-86c5-bdfb63ae718a"
+    php:
+      beautify_on_save: true
+      default_beautifier: "PHPCBF"
+  "atom-material-ui":
+    colors:
+      abaseColor: "#2196f3"
+      predefinedColor: "Blue"
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      panelShadows: true
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
+    erlangHome: "/usr/local/bin"
+  core:
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "atom-pair"
+      "linter-coffeescript"
+      "linter-jshint"
+      "minimap-highlight-selected"
+      "php-cs-fixer"
+      "phpcbf"
+      "atom-beautify"
+      "Parinfer"
+      "Stylus"
+      "atom-css-comb"
+      "atom-hg"
+      "atom-prettify"
+      "autocomplete-html-entities"
+      "linter-stylelint"
+      "atom-elixir"
+      "atom-jade"
+      "atom-typescript"
+      "ide-flowtype"
+      "autocomplete-swift"
+      "language-haskell"
+      "parinfer"
+    ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "Thumbs.db"
+    ]
+    packagesWithKeymapsDisabled: [
+      "hey-pane"
+      "expose"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "nucleus-dark-ui"
+      "slime"
+    ]
+  "dotfiles-sync":
+    debug: false
+    pathToConfig: "/Users/rastopyr/programming/dotfiles"
+  editor:
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "dfcc2a8d-1428-a4e5-7df1-30eb69a03035"
+  linter: {}
+  "linter-elixirc":
+    forceElixirc: true
+  "linter-ui-default":
+    panelHeight: 168
+  "lisp-paredit":
+    strict: false
+  "markdown-preview":
+    useGitHubStyle: true
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+  "nord-atom-ui":
+    darkerFormFocusEffect: true
+  "one-dark-ui":
+    tabSizing: "Even"
+  "one-light-ui":
+    layoutMode: "Compact"
+    tabSizing: "Even"
+  parinfer:
+    "file-extensions": [
+      ".boot"
+      ".cl"
+      ".clj"
+      ".cljc"
+      ".cljs"
+      ".edn"
+      ".el"
+      ".lfe"
+      ".lisp"
+      ".lsp"
+      ".rkt"
+      ".scm"
+    ]
+  "prettier-atom":
+    formatOnSaveOptions:
+      showInStatusBar: true
+    useEslint: true
+  preview:
+    _analyticsUserId: "e48d770e-d30e-4269-90bf-4a81ca60539b"
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1506876111
+  welcome:
+    showOnStartup: false
